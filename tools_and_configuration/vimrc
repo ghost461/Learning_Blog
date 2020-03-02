@@ -1,0 +1,27 @@
+set fileencodings=utf-11,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
+syntax enable
+set cindent
+"tab键长度为4
+set tabstop=4
+"缩进宽度为4
+set shiftwidth=8
+"#总是显示状态栏
+set laststatus=2
+"#显示光标当前位置
+set ruler
+"#开启行号显示
+set number
+"#高亮显示当前行/列
+"set cursorline
+"set cursorcolumn
+"#高亮显示搜索结果
+set hlsearch
+"去除vi一致性
+set nocompatible
+"indent: 可以删除缩进
+"eol: 可以合并两行
+"start: 可以删除此次插入前的输入
+set backspace=indent,eol,start
+
